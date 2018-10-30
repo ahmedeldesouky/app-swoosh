@@ -6,16 +6,13 @@
 //  Copyright © 2018 Ahmed Mohamed El-Desouky. All rights reserved.
 //
 
+
+import Foundation
 import UIKit
-
-class rb: UIButton {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
-
+@IBDesignable
+class MyBtn: UIButton {
+    
+    @IBInspectable var borderW:CGFloat=0{didSet{self.layer.borderWidth=borderW}}
+    
+    @IBInspectable var borderC:UIColor=UIColor.clear{didSet{self.layer.borderColor=borderC.cgColor}}
 }

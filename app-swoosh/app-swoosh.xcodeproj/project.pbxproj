@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C26092B218708A500B605B8 /* MyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C26092A218708A500B605B8 /* MyBtn.swift */; };
 		3C2AE3952186F8A8000CF659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AE3942186F8A8000CF659 /* AppDelegate.swift */; };
 		3C2AE3972186F8A8000CF659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AE3962186F8A8000CF659 /* ViewController.swift */; };
 		3C2AE39A2186F8A8000CF659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AE3982186F8A8000CF659 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C26092A218708A500B605B8 /* MyBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBtn.swift; sourceTree = "<group>"; };
 		3C2AE3912186F8A8000CF659 /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2AE3942186F8A8000CF659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C2AE3962186F8A8000CF659 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C2609292187085A00B605B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C26092A218708A500B605B8 /* MyBtn.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3C2AE3882186F8A7000CF659 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		3C2AE3932186F8A8000CF659 /* app-swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				3C2609292187085A00B605B8 /* Views */,
 				3C2AE3942186F8A8000CF659 /* AppDelegate.swift */,
 				3C2AE3962186F8A8000CF659 /* ViewController.swift */,
 				3C2AE3982186F8A8000CF659 /* Main.storyboard */,
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C2AE3972186F8A8000CF659 /* ViewController.swift in Sources */,
+				3C26092B218708A500B605B8 /* MyBtn.swift in Sources */,
 				3C2AE3952186F8A8000CF659 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 894Y366D52;
 				INFOPLIST_FILE = "app-swoosh/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 894Y366D52;
 				INFOPLIST_FILE = "app-swoosh/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

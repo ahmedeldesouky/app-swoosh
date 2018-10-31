@@ -8,6 +8,7 @@
 
 import Foundation
 
-struct YourType {
-    var 
+struct YourOption {
+    var leaguename:String!
+    var leveldegree:String!
 }

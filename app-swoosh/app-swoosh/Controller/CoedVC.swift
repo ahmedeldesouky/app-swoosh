@@ -10,6 +10,8 @@ import UIKit
 
 class CoedVC: UIViewController {
 
+    var cdegree:YourOption!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

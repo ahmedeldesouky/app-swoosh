@@ -9,6 +9,8 @@
 import UIKit
 
 class WomenVC: UIViewController {
+    
+    var wdegree:YourOption!
 
     override func viewDidLoad() {
         super.viewDidLoad()

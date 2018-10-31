@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C09A140218841BC0053A7C2 /* DesLeagVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09A13F218841BC0053A7C2 /* DesLeagVC.swift */; };
+		3C09A142218841DD0053A7C2 /* MenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09A141218841DD0053A7C2 /* MenVC.swift */; };
+		3C09A14421885BF50053A7C2 /* YourOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09A14321885BF50053A7C2 /* YourOptions.swift */; };
 		3C26092B218708A500B605B8 /* MyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C26092A218708A500B605B8 /* MyBtn.swift */; };
 		3C2AE3952186F8A8000CF659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AE3942186F8A8000CF659 /* AppDelegate.swift */; };
-		3C2AE3972186F8A8000CF659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AE3962186F8A8000CF659 /* ViewController.swift */; };
+		3C2AE3972186F8A8000CF659 /* WellcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AE3962186F8A8000CF659 /* WellcomeVC.swift */; };
 		3C2AE39A2186F8A8000CF659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AE3982186F8A8000CF659 /* Main.storyboard */; };
 		3C2AE39C2186F8AE000CF659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AE39B2186F8AE000CF659 /* Assets.xcassets */; };
 		3C2AE39F2186F8AE000CF659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AE39D2186F8AE000CF659 /* LaunchScreen.storyboard */; };
+		3C598F6A218983670024208F /* WomenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C598F69218983670024208F /* WomenVC.swift */; };
+		3C598F6C218983840024208F /* CoedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C598F6B218983840024208F /* CoedVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C09A13F218841BC0053A7C2 /* DesLeagVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesLeagVC.swift; sourceTree = "<group>"; };
+		3C09A141218841DD0053A7C2 /* MenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenVC.swift; sourceTree = "<group>"; };
+		3C09A14321885BF50053A7C2 /* YourOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourOptions.swift; sourceTree = "<group>"; };
 		3C26092A218708A500B605B8 /* MyBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBtn.swift; sourceTree = "<group>"; };
 		3C2AE3912186F8A8000CF659 /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2AE3942186F8A8000CF659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C2AE3962186F8A8000CF659 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C2AE3962186F8A8000CF659 /* WellcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellcomeVC.swift; sourceTree = "<group>"; };
 		3C2AE3992186F8A8000CF659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C2AE39B2186F8AE000CF659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C2AE39E2186F8AE000CF659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C2AE3A02186F8AE000CF659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C598F69218983670024208F /* WomenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomenVC.swift; sourceTree = "<group>"; };
+		3C598F6B218983840024208F /* CoedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoedVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C09A13D21883FE80053A7C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C2AE3962186F8A8000CF659 /* WellcomeVC.swift */,
+				3C09A13F218841BC0053A7C2 /* DesLeagVC.swift */,
+				3C09A141218841DD0053A7C2 /* MenVC.swift */,
+				3C598F69218983670024208F /* WomenVC.swift */,
+				3C598F6B218983840024208F /* CoedVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C09A13E218840000053A7C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C09A14321885BF50053A7C2 /* YourOptions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		3C2609292187085A00B605B8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -64,9 +94,10 @@
 		3C2AE3932186F8A8000CF659 /* app-swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				3C09A13E218840000053A7C2 /* Model */,
+				3C09A13D21883FE80053A7C2 /* Controller */,
 				3C2609292187085A00B605B8 /* Views */,
 				3C2AE3942186F8A8000CF659 /* AppDelegate.swift */,
-				3C2AE3962186F8A8000CF659 /* ViewController.swift */,
 				3C2AE3982186F8A8000CF659 /* Main.storyboard */,
 				3C2AE39B2186F8AE000CF659 /* Assets.xcassets */,
 				3C2AE39D2186F8AE000CF659 /* LaunchScreen.storyboard */,
@@ -146,8 +177,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C2AE3972186F8A8000CF659 /* ViewController.swift in Sources */,
+				3C09A142218841DD0053A7C2 /* MenVC.swift in Sources */,
+				3C09A140218841BC0053A7C2 /* DesLeagVC.swift in Sources */,
+				3C2AE3972186F8A8000CF659 /* WellcomeVC.swift in Sources */,
+				3C598F6C218983840024208F /* CoedVC.swift in Sources */,
 				3C26092B218708A500B605B8 /* MyBtn.swift in Sources */,
+				3C09A14421885BF50053A7C2 /* YourOptions.swift in Sources */,
+				3C598F6A218983670024208F /* WomenVC.swift in Sources */,
 				3C2AE3952186F8A8000CF659 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

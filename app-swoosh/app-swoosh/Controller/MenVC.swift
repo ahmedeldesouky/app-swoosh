@@ -10,7 +10,7 @@ import UIKit
 
 class MenVC: UIViewController {
     
-    var degree:YourOption!
+    var mdegree:YourOption!
     
     
     override func viewDidLoad() {
